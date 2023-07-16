@@ -18,7 +18,7 @@ jobs:
     name: "Share"
     steps:
       - name: "Share GitHub repository tag to VK"
-        uses: ghastore/vk@main
+        uses: ghastore/vk-share@main
         with:
           type: "tag"
           gh_api: "https://api.github.com/repos/${{ github.repository }}"
