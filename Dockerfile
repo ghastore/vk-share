@@ -2,7 +2,7 @@ FROM alpine
 
 LABEL "name"="VK Share"
 LABEL "description"="Share GitHub repository in VK."
-LABEL "maintainer"="iHub TO <mail@ihub.to>"
+LABEL "maintainer"="Kai Kimera <mail@kai.kim>"
 LABEL "repository"="https://github.com/ghastore/vk-share.git"
 LABEL "homepage"="https://github.com/ghastore"
 
